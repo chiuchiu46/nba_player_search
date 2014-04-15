@@ -34,11 +34,11 @@ foreach($result as $row){
 	echo "<th>PPG</th>";
 	echo "</tr>";
 	echo "<tr>";
-	echo "<td class='gp'>" . $row['GP'] . "</td>";
-	echo "<td class='fgp'>" . $row['FGP'] . "</td>";
-	echo "<td class='tpp'>" . $row['TPP'] . "</td>";
-	echo "<td class='ftp'>" . $row['FTP'] . "</td>";
-	echo "<td class='ppg'>" . $row['PPG'] . "</td>";
+	echo "<td>" . $row['GP'] . "</td>";
+	echo "<td>" . $row['FGP'] . "</td>";
+	echo "<td>" . $row['TPP'] . "</td>";
+	echo "<td>" . $row['FTP'] . "</td>";
+	echo "<td>" . $row['PPG'] . "</td>";
 	echo "</tr>";
 	echo "</table>";
 	echo "</div>";
