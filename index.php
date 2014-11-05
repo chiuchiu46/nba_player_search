@@ -3,7 +3,7 @@ error_reporting(-1);
 if (isset($_REQUEST['pname']))
 {
 # Connect
-$conn = new PDO('mysql:host=acdbinstance.c6wj7xpbm1zb.us-west-2.rds.amazonaws.com;dbname=nba','info344user','quanta01$');
+$conn = new PDO('mysql:host=acdbinstance.c6wj7xpbm1zb.us-west-2.rds.amazonaws.com;dbname=nba','info344','1234567');
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $name = $_REQUEST['pname'];
